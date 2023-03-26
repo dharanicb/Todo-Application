@@ -152,8 +152,8 @@ app.put("/todos/:todoId/", async (request, response) => {
   UPDATE 
     todo
   SET 
-    todo = '${todo}'
-    priority = '${priority}'
+    todo = '${todo}',
+    priority = '${priority}',
     status = '${status}'
     WHERE 
        id = ${todoId};`;

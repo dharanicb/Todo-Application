@@ -22,12 +22,10 @@ Content-Type: application/json
 
 ###
 
-# PUT http://localhost:3000/todos/1
-# Content-Type: application/json
+PUT http://localhost:3000/todos/1
+Content-Type: application/json
 
-# { "todo": "Some task",
-#   "priority": "HIGH",
-#   "status": "DONE" }
+{ "status": "DONE" }
 
 ###
 
@@ -38,10 +36,10 @@ Content-Type: application/json
 
 ###
 
-# PUT http://localhost:3000/todos/1
-# Content-Type: application/json
+PUT http://localhost:3000/todos/1
+Content-Type: application/json
 
-# { "todo": "Some task" }
+{ "todo": "Some task" }
 
 ###
 
